@@ -1,9 +1,11 @@
+import "./styles.css";
+
 function App() {
   return (
     <div className="calculator-grid">
       <div className="output">
         <div className="previous-operand">1</div>
-        <div className="previous-operand">3</div>
+        <div className="current-operand">3</div>
       </div>
       <button className="span-two">AC</button>
       <button>DEL</button>
