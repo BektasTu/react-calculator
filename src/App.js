@@ -82,7 +82,7 @@ function reducer(state, { type, payload }) {
       if (
         state.operation == null ||
         state.currentOperand == null ||
-        state.previousOperand
+        state.previousOperand == null
       ) {
         return state;
       }
